@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.example.insertar_datos.db.DbHelper;
 
-public class MainActivity extends AppCompatActivity {
+public class    MainActivity extends AppCompatActivity {
 
     Button btnCrear, btnIrRegistros;
 
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, RegistrosActivity.class);
-                startActivity(intent);
+                    startActivity(intent);
             }
         });
     }
